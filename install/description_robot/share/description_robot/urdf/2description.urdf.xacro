@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="pendulum_stabilization">
+
+
+    <xacro:include filename="include.xacro" />
+
+    <link name="link_column1">
+        <visual>
+            <geometry>
+                <box size="0.04 0.04 1"/>
+            </geometry>
+            <origin xyz="0.02 0.02 0.5" rpy="0.0 0.0 0.0"/>
+        </visual>
+
+        <collision>
+            <origin xyz="0.02 0.02 0.5" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="0.04 0.04 1"/>
+            </geometry>
+        </collision>
+
+        <inertial>
+            <mass value="0.0"/>
+            <xacro:inertial_cuboid mass="1" width="0.04" height="0.04" depth="1">
+                <origin xyz="0.02 0.02 0.5" rpy="0 0 0"/>
+            </xacro:inertial_cuboid>
+        </inertial>
+
+    </link>
+
+    <link name="link_sliding_bar">
+        <visual>
+            <geometry>
+                <box size="0.04 0.04 0.8"/>
+            </geometry>
+            <origin xyz="0.02 0.4 1.02" rpy="1.57075 0.0 0.0"/>
+            
+        </visual>
+    </link>
+
+    <link name="link_column2">
+        <visual>
+            <geometry>
+                <box size="0.04 0.04 1"/>
+            </geometry>
+            <origin xyz="0.02 0.78 0.5" rpy="0.0 0.0 0.0"/>
+            
+        </visual>
+
+    </link>
+
+    <link name="link_motor">
+        <visual> <!-- motor body-->
+            <geometry>
+                <box size="0.04 0.04 0.05"/>
+            </geometry>
+            <origin xyz="0.02 0.02 1.06" rpy="0.0 0.0 0.0"/>
+        </visual>
+        <visual> <!-- pulley-->
+            <geometry>
+                <cylinder radius="0.01" length="0.01"/>
+            </geometry>
+            <origin xyz="-0.01 0.02 1.06" rpy="0.0 -1.57075 0.0"/>
+        </visual>
+
+    </link>
+
+    <link name="link_encorder">
+        <visual> <!-- body-->
+            <geometry>
+                <box size="0.05 0.04 0.04"/>
+            </geometry>
+            <origin xyz="0.025 0.4 1.06" rpy="0.0 0.0 0.0"/>  
+        </visual>
+        <visual> <!-- pulley-->
+            <geometry>
+                <cylinder radius="0.01" length="0.01"/>
+            </geometry>
+            <origin xyz="-0.01 0.4 1.06" rpy="0.0 -1.57075 0.0"/>
+        </visual>
+        <visual> <!-- shaft - connected with pendulum-->
+            <geometry>
+                <cylinder radius="0.005" length="0.01"/>
+            </geometry>
+            <origin xyz="0.005 0.4 1.06" rpy="0.0 1.57075 0.0"/>
+        </visual>
+    </link>
+
+    <link name="link_pendulum">
+        <visual>
+            <geometry>
+                <box size="0.05 0.02 0.4"/>
+            </geometry>
+            <origin xyz="0.06 0.4 0.86" rpy="0.0 0.0 0.0"/>
+        </visual>
+    </link>
+
+    <joint name="joint_connect_sliding_bar1" type="fixed">
+        <parent link="link_column1"/>
+        <child link="link_sliding_bar"/> 
+        <origin xyz="0.02 0.02 1"/>
+    </joint>  
+
+    <joint name="joint_connect_sliding_bar2" type="fixed">
+        <parent link="link_column2"/>
+        <child link="link_sliding_bar"/>
+        <origin xyz="0.02 0.78 1"/>
+        
+    </joint>
+
+    <joint name="joint_column1_motor" type="fixed">
+        <parent link="link_column1"/>
+        <child link="link_motor"/>
+        <origin xyz="0.02 0.02 1.04"/>
+    </joint>  
+
+    <joint name="joint_encorder_motor" type="prismatic">
+        <parent link="link_motor"/>
+        <child link="link_encorder"/>
+        <origin xyz="0.0 0.0 0.0"/>
+        <axis xyz="0.0 1 0.0"/>
+        <limit lower="0.0" upper="1" effort="100.0" velocity="0.2"/>
+    </joint>
+
+    <joint name="joint_encorder_pendulum" type="continuous">
+        <parent link="link_encorder"/>
+        <child link="link_pendulum"/>
+        <origin xyz="0.06 0.4 0.86" rpy="0.0 0.0 0.0"/>
+        <axis xyz="1 0.0 0.0"/>
+        
+    </joint>
+</robot>

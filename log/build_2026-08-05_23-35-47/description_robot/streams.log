@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/description_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/description_robot -- -j12 -l12
+[0.058s] Invoked command in '/home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/description_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/description_robot -- -j12 -l12
+[0.073s] Invoking command in '/home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/description_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/description_robot
+[0.092s] -- Install configuration: ""
+[0.093s] -- Execute custom install script
+[0.093s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/launch/gazebo.launch.py
+[0.093s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/urdf/description.urdf.xacro
+[0.094s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/ament_index/resource_index/package_run_dependencies/description_robot
+[0.094s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/ament_index/resource_index/parent_prefix_path/description_robot
+[0.094s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/environment/ament_prefix_path.sh
+[0.094s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/environment/path.sh
+[0.095s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/environment/path.dsv
+[0.095s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/local_setup.bash
+[0.095s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/local_setup.sh
+[0.095s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/local_setup.zsh
+[0.095s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/local_setup.dsv
+[0.096s] -- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/package.dsv
+[0.115s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/ament_index/resource_index/packages/description_robot
+[0.115s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/cmake/description_robotConfig.cmake
+[0.115s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/cmake/description_robotConfig-version.cmake
+[0.116s] -- Up-to-date symlink: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/package.xml
+[0.121s] Invoked command in '/home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/description_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/description_robot

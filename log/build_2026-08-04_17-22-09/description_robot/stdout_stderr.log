@@ -1,0 +1,24 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/description_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/launch/gazebo.launch.py
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/urdf/description.urdf.xacro
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/ament_index/resource_index/package_run_dependencies/description_robot
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/ament_index/resource_index/parent_prefix_path/description_robot
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/environment/path.sh
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/environment/path.dsv
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/local_setup.bash
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/local_setup.sh
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/local_setup.zsh
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/local_setup.dsv
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/package.dsv
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/ament_index/resource_index/packages/description_robot
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/cmake/description_robotConfig.cmake
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/cmake/description_robotConfig-version.cmake
+-- Symlinking: /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/description_robot/share/description_robot/package.xml
