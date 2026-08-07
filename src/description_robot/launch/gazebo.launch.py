@@ -45,14 +45,14 @@ def generate_launch_description():
                         arguments=['-topic', 'robot_description',
                                 '-name', 'my_bot'],
                         output='screen')
-    # Node for public joint states to ROS 2
+    # 5 Node for public joint states to ROS 2
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
         executable="spawner",
         arguments=['joint_state_broadcaster'],
         output='screen'
     )
-    # Node for force commands to Gazebo
+    # 6 Node for force commands to Gazebo
     cart_effort_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",

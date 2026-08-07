@@ -5,4 +5,4 @@ source install/setup.bash
 
 # unset MESA_LOADER_DRIVER_NAME
 
-ros2 launch description_robot gazebo.launch.py
+# ros2 launch description_robot gazebo.launch.py

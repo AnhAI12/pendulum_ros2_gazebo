@@ -182,7 +182,7 @@
         <child link="link_encorder"/>
         <origin xyz="0 0.4 0.02"/>
         <axis xyz="0.0 1 0.0"/>
-        <limit lower="-0.5" upper="0.5" effort="100.0" velocity="0.2"/>
+        <limit lower="-0.35" upper="0.3" effort="100.0" velocity="0.2"/>
         <dynamics damping="0.01" friction="0.05"/>
     </joint>
 
@@ -238,9 +238,9 @@
     <joint name="joint_encorder_pendulum" type="continuous">
         <parent link="link_encorder"/>
         <child link="link_pendulum"/>
-        <origin xyz="0.03 0 0" rpy="0.0 0.0 0.0"/>
+        <origin xyz="0.03 0 0" rpy="0.01 0.0 0.0"/>
         <axis xyz="1 0.0 0.0"/>
-        <dynamics damping="0.0001" friction="0.001"/>
+        <dynamics damping="0.0001" friction="0.002"/>
     </joint>
 
     <link name="link_pendulum">
@@ -248,7 +248,7 @@
             <geometry>
                 <box size="0.02 0.05 0.4"/>
             </geometry>
-            <origin xyz="0.01 0 -0.2" rpy="0.0 0.0 0.0"/>
+            <origin xyz="0.01 0 0.2" rpy="0.0 0.0 0.0"/>
             <material name="green" />
         </visual>
 
@@ -256,11 +256,11 @@
             <geometry>
                 <box size="0.02 0.05 0.4"/>
             </geometry>
-            <origin xyz="0.01 0 -0.2" rpy="0.0 0.0 0.0"/>
+            <origin xyz="0.01 0 0.2" rpy="0.0 0.0 0.0"/>
         </collision>
 
         <xacro:inertial_slender mass="0.3" length="0.4">
-            <origin xyz="0.01 0 -0.2" rpy="0.0 0.0 0.0"/> 
+            <origin xyz="0.01 0 0.2" rpy="0.0 0.0 0.0"/> 
         </xacro:inertial_slender>
     </link>
 

@@ -1,0 +1,2 @@
+[console_scripts]
+pendulum_controller_node = pendulum_stabilizer_control.controller_code:main

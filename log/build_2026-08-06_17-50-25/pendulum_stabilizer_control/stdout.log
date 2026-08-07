@@ -1,0 +1,28 @@
+running egg_info
+creating ../../build/pendulum_stabilizer_control/pendulum_stabilizer_control.egg-info
+writing ../../build/pendulum_stabilizer_control/pendulum_stabilizer_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/pendulum_stabilizer_control/pendulum_stabilizer_control.egg-info/dependency_links.txt
+writing entry points to ../../build/pendulum_stabilizer_control/pendulum_stabilizer_control.egg-info/entry_points.txt
+writing requirements to ../../build/pendulum_stabilizer_control/pendulum_stabilizer_control.egg-info/requires.txt
+writing top-level names to ../../build/pendulum_stabilizer_control/pendulum_stabilizer_control.egg-info/top_level.txt
+writing manifest file '../../build/pendulum_stabilizer_control/pendulum_stabilizer_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/pendulum_stabilizer_control/pendulum_stabilizer_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/pendulum_stabilizer_control/pendulum_stabilizer_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/pendulum_stabilizer_control/build
+creating /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/pendulum_stabilizer_control/build/lib
+creating /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/pendulum_stabilizer_control/build/lib/pendulum_stabilizer_control
+copying pendulum_stabilizer_control/controller_code.py -> /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/pendulum_stabilizer_control/build/lib/pendulum_stabilizer_control
+copying pendulum_stabilizer_control/__init__.py -> /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/pendulum_stabilizer_control/build/lib/pendulum_stabilizer_control
+running install
+running install_lib
+creating /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/pendulum_stabilizer_control/lib/python3.12/site-packages/pendulum_stabilizer_control
+copying /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/pendulum_stabilizer_control/build/lib/pendulum_stabilizer_control/controller_code.py -> /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/pendulum_stabilizer_control/lib/python3.12/site-packages/pendulum_stabilizer_control
+copying /home/duyanh/Documents/2_ros2_prj/pendulum_ws/build/pendulum_stabilizer_control/build/lib/pendulum_stabilizer_control/__init__.py -> /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/pendulum_stabilizer_control/lib/python3.12/site-packages/pendulum_stabilizer_control
+byte-compiling /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/pendulum_stabilizer_control/lib/python3.12/site-packages/pendulum_stabilizer_control/controller_code.py to controller_code.cpython-312.pyc
+byte-compiling /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/pendulum_stabilizer_control/lib/python3.12/site-packages/pendulum_stabilizer_control/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/pendulum_stabilizer_control/share/ament_index
+creating /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/pendulum_stabilizer_control/share/ament_index/resource_index
+creating /home/duyanh/Documents/2_ros2_prj/pendulum_ws/install/pendulum_stabilizer_control/share/ament_index/resource_index/packages
